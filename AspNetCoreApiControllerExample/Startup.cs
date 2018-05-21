@@ -25,6 +25,10 @@ namespace AspNetCoreApiControllerExample
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            /*
+             * Uncommenting this line - suppressing inferrence for parameters - doesn't seem to make a difference either?
+             */
+            // services.Configure<ApiBehaviorOptions>(api => api.SuppressInferBindingSourcesForParameters = true);
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }
 
