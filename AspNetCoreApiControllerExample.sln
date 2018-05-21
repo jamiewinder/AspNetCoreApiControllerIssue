@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreApiControllerExample", "AspNetCoreApiControllerExample\AspNetCoreApiControllerExample.csproj", "{B9616246-901A-46D6-AF38-8CE8C85391A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B9616246-901A-46D6-AF38-8CE8C85391A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9616246-901A-46D6-AF38-8CE8C85391A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9616246-901A-46D6-AF38-8CE8C85391A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9616246-901A-46D6-AF38-8CE8C85391A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25A3FC9B-10BD-4693-8272-71CB0571DA6C}
+	EndGlobalSection
+EndGlobal
