@@ -19,6 +19,13 @@ namespace AspNetCoreApiControllerExample
 
         public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
             WebHost.CreateDefaultBuilder(args)
+                .ConfigureLogging(factory =>
+                {
+                    factory
+                        .AddConsole()
+                        .AddDebug()
+                        .SetMinimumLevel(LogLevel.Trace);
+                })
                 .UseStartup<Startup>();
     }
 }
